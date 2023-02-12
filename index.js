@@ -49,25 +49,25 @@ bot.onText(/\/imagine/, async (msg) => {
 })
 
 const checkDefaultMessage = (chatId, message) => {
-    if (message.length > 0 && (message.includes("your name") || message.includes("who are you")) || message.includes("yo name") || message.includes("u name") || message.includes("who r u")) {
-        bot.sendMessage(chatId, "My name is ZenithereumAI.");
-        return true;
-    }
+//     if (message.length > 0 && (message.includes("your name") || message.includes("who are you")) || message.includes("yo name") || message.includes("u name") || message.includes("who r u")) {
+//         bot.sendMessage(chatId, "My name is ZenithereumAI.");
+//         return true;
+//     }
 
-    if (message.length > 0 && message.includes("your website")) {
-        bot.sendMessage(chatId, "My website is zenithereum.ai.");
-        return true;
-    }
+//     if (message.length > 0 && message.includes("your website")) {
+//         bot.sendMessage(chatId, "My website is zenithereum.ai.");
+//         return true;
+//     }
 
-    if (message.length > 0 && message.includes("your twitter")) {
-        bot.sendMessage(chatId, "My Twitter is https://twitter.com/zenithereumai.");
-        return true;
-    }
+//     if (message.length > 0 && message.includes("your twitter")) {
+//         bot.sendMessage(chatId, "My Twitter is https://twitter.com/zenithereumai.");
+//         return true;
+//     }
 
-    if (message.length > 0 && (message === "hi" || message === "hello")) {
-        bot.sendMessage(chatId, "Hi, can I help you?");
-        return true;
-    }
+//     if (message.length > 0 && (message === "hi" || message === "hello")) {
+//         bot.sendMessage(chatId, "Hi, can I help you?");
+//         return true;
+//     }
 
     return false;
 }
